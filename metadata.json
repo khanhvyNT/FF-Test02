@@ -1,0 +1,6 @@
+{
+  "name": "Color Detector",
+  "description": "Real-time screen color detector at crosshair coordinates with floating subtitle overlay for Phase 1 testing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

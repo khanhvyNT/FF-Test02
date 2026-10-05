@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Crosshair Brackets -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M 36,30 L 30,30 L 30,36 M 72,30 L 78,30 L 78,36 M 30,72 L 30,78 L 36,78 M 78,72 L 78,78 L 72,78" />
+    
+    <!-- Central Reticle Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:pathData="M 54,54 m -18,0 a 18,18 0 1,0 36,0 a 18,18 0 1,0 -36,0" />
+
+    <!-- Crosshair Pointer Axis -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,26 L 54,38 M 54,70 L 54,82 M 26,54 L 38,54 M 70,54 L 82,54" />
+
+    <!-- Center Target Indicator: Red & Green dual indicator -->
+    <!-- Top-Right Red Marker -->
+    <path
+        android:fillColor="#FF2A48"
+        android:pathData="M 54,54 L 62,46 A 11,11 0 0,0 54,43 Z" />
+    <!-- Bottom-Left Green Marker -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M 54,54 L 46,62 A 11,11 0 0,0 54,65 Z" />
+
+    <!-- Center Precision Target Dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,54 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" />
+</vector>
